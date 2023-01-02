@@ -29,10 +29,10 @@ function Hero() {
           title="Hawaii Sunset"
         />
         <CardContent>
-          <Typography gutterBottom align='center' variant="h2" component="h2" >
+          <Typography gutterBottom variant="h2" component="h2" align='center' >
             Sandeep Appikonda
           </Typography>
-          <Typography variant="body2" color="text.secondary" align='center '>
+          <Typography variant="body2" color="text.secondary" align='center'>
             Experienced Software Engineer with a passion for solving complex problems and designing simple and efficient
             solutions. Excellent ability to grasp emerging technologies and interact smoothly and effectively with peers,
             management, and clients.
