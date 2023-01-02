@@ -39,7 +39,7 @@ function Hero() {
           </Typography>
         </CardContent>
         <CardActions style={{ justifyContent: 'center' }}>
-       
+
           <ButtonGroup
             orientation="horizontal"
             aria-label="vertical contained button group"
@@ -48,64 +48,52 @@ function Hero() {
           >
 
             <a href="https://www.facebook.com/sandeep.appikonda" target="_blank" rel="noreferrer">
-              <IconButton  component="label" >
+              <IconButton component="label" >
                 <FacebookOutlinedIcon />
               </IconButton>
             </a>
-            
-            <a href="https://www.facebook.com/sandeep.appikonda" target="_blank" rel="noreferrer">
+
+            <a href="https://www.linkedin.com/in/sandeepappikonda" target="_blank" rel="noreferrer">
               <IconButton component="label" >
                 < LinkedInIcon />
               </IconButton>
             </a>
             <a href="https://github.com/appikonda" target="_blank" rel="noreferrer">
-              <IconButton   component="label" >
+              <IconButton component="label" >
                 < GitHubIcon />
               </IconButton>
             </a>
-            
-              <IconButton href="https://www.instagram.com/appikonda/" target="_blank" rel="noreferrer" component="label" >
+            <a href="https://www.instagram.com/appikonda/" target="_blank" rel="noreferrer">
+              <IconButton component="label" >
                 < InstagramIcon />
               </IconButton>
-           
-
+            </a>
           </ButtonGroup>
-          </CardActions>
-          <CardActions style={{ justifyContent: 'center' }}>
+        </CardActions>
+        <CardActions style={{ justifyContent: 'center' }}>
           <Box
-          sx={{
-            display: 'flex',
-            '& > *': {
-              m: 1,
-            },
-          }}
-        >
-          
-          <ButtonGroup
-            orientation="vertical"
-            aria-label="vertical contained button group"
-            variant="text"
-    color='inherit'
+            sx={{
+              display: 'flex',
+              '& > *': {
+                m: 1,
+              },
+            }}
           >
-          <Button size='medium'>About</Button>
-          
-          <Button size='large' href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Button>
-          
-          <Button size='medium'>Photos</Button>
-          </ButtonGroup>
-        </Box>
-           </CardActions>
-  
+            <ButtonGroup
+              orientation="vertical"
+              aria-label="vertical contained button group"
+              variant="text"
+              color='inherit'
+            >
+              <Button size='medium'>About</Button>
 
-          
+              <Button size='large' href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Button>
 
-
-
-
-        
-
+              <Button size='medium'>Photos</Button>
+            </ButtonGroup>
+          </Box>
+        </CardActions>
       </Card>
-
     </React.Fragment>
 
   );
