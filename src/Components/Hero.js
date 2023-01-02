@@ -8,17 +8,12 @@ import Typography from '@mui/material/Typography';
 import { Button, ButtonGroup } from '@mui/material';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import CssBaseline from '@mui/material/CssBaseline';
-import InstaImages from './InstaImages';
-import DeleteIcon from '@mui/icons-material/Delete';
+
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
-import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
-
-import { Routes, Route, Link } from 'react-router-dom';
 
 
 function Hero() {
