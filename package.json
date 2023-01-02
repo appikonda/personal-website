@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "homepage": "http://appikonda.github.io/personal-website",
+  "homepage": "http://appikonda.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
