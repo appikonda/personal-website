@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   GlobalStyles,
   Box,
@@ -30,6 +30,15 @@ const serif = '"Cormorant Garamond", Georgia, serif';
 const sans = 'Montserrat, Arial, sans-serif';
 
 function Reyansh() {
+  useEffect(() => {
+    const previousTitle = document.title;
+    document.title = 'Reyansh Appikonda';
+
+    return () => {
+      document.title = previousTitle;
+    };
+  }, []);
+
   return (
     <Box component='main' sx={{ minHeight: '100vh', bgcolor: '#fbf7f1', color: '#493a31', fontFamily: sans }}>
       <GlobalStyles styles={'@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Montserrat:wght@400;500;600&display=swap");'} />
